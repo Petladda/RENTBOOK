@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel ,.slide{
+    margin-top: 4em;
+    margin-left: 6em ;
+    width: 30em;
+    height: 5em;
+    
+}
+.carousel-inner img{
+    width: 23em;
+    height: 28em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 5px;
+}
+
+button{
+    margin-top: 12em;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -5px;
+}
+.carousel-control-next-icon{
+    margin-left: 200px;
+}
+
+.carousel-indicators , .btn {
+    margin-top: 80em;
+}
+
+.visually-hidden{
+    margin-top: 50px;
+}
+
+.detail-box{
+    margin-top: -78px;
+    margin-left: 550px;
+    position: absolute;
+    
+}
+
+.h1{
+    font-size: 20px;
+}
+
+.h2{
+    font-size: 15px;
+    color: darkgray;
+    margin-bottom: 2em;
+}
+
+.bi-star-fill{
+    color: yellow;
+    margin-bottom: 80px;
+}
+
+.button-pay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60em;
+    text-decoration: none;
+    
+    
+}
+
+.btn{
+    font-family: inherit;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: overline;
+   
+}
+
+.btn-pri{
+    background: linear-gradient(120deg,#2d5b79,#98c4c7);
+    box-shadow: 0px 1px 8px rgb(91, 91, 91);
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.btn-se,.btn:hover{
+    background: linear-gradient(120deg,#2d5b79,#98c4c7);
+    box-shadow: 0px 1px 8px rgb(91, 91, 91);
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+
+.price{
+    color: brown;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.select-book{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 44px;
+    margin-left: 250px;
+    border-radius: 3px;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+    border: 1.5px solid rgba(170, 184, 187, 0.422);
+    box-shadow: 0px 1px 3px;
+}
+
